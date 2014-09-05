@@ -28,7 +28,7 @@ else
 fi
 
 if $cygwin; then
-  path=`cygpath -C ANSI -aw $path`
+  path=`cygpath -C ANSI -aw "$path"`
 fi
 
 explorer $path
